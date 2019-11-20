@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/toolbar" android:id="@+id/toolbarview"/>
+
+    <com.plusinfosys.viewpager.horizontal.MyHorizontalViewPager
+            android:id="@+id/horizontalViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_below="@+id/toolbarview">
+
+    </com.plusinfosys.viewpager.horizontal.MyHorizontalViewPager>
+    <com.plusinfosys.viewpager.horizontal.MyVerticalViewPager
+            android:id="@+id/verticalViewPager"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/toolbarview"
+            android:layout_height="match_parent">
+
+    </com.plusinfosys.viewpager.horizontal.MyVerticalViewPager>
+</RelativeLayout>
