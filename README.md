@@ -1,4 +1,4 @@
 # ViewPager Demo
-# Horizontal ViewPager
-# Vertical ViewPager
+ Horizontal ViewPager
+ Vertical ViewPager
 
